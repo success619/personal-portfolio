@@ -9,7 +9,7 @@ import { StarsCanvas } from "./canvas";
 const App = () => {
   return (
     <Router>
-      <div className="relative z-0 bg-primary">
+      <div className="relative z-50 !bg-primary !bg-cover ">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
           <Home />
